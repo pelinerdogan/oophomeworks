@@ -1,0 +1,568 @@
+please press enter until the program is finished.
+
+Default constructor created  an empty set.
+Elements in the set are: 
+
+Number of days: 0
+
+ 4 element added to the set. Now the set is:
+Elements in the set are: 
+1)  August     25
+2)  December   14
+3)  July       12
+4)  Semptember 1
+
+Number of days: 4
+
+
+ İnteger parameter constructor created a new set   .
+
+Elements in the set are: 
+1)  January    1
+
+Number of days: 1
+
+ 2 element added to the set. Now the set is:
+
+Elements in the set are: 
+1)  January    1
+2)  July       12
+3)  December   14
+
+Number of days: 3
+
+
+ set paramater constructor created a new set same with set 1  .
+
+Elements in the set are: 
+1)  January    1
+2)  July       12
+3)  December   14
+
+Number of days: 3
+
+
+List parameter constructor created a set 
+
+Elements in the set are: 
+1)  January    8
+2)  November   10
+3)  May        6
+4)  December   14
+5)  March      30
+6)  November   22
+7)  October    19
+8)  July       12
+
+Number of days: 8
+
+ January 8 removed from the set.
+ January 3 added to the set.
+
+Elements in the set are: 
+1)  November   10
+2)  May        6
+3)  December   14
+4)  March      30
+5)  November   22
+6)  October    19
+7)  July       12
+8)  January    3
+
+Number of days: 8
+
+Set created with + overloading operator (s1 + s2 + s3).
+(Same elements did not duplicated.)
+
+Elements in the set are: 
+1)  August     25
+2)  December   14
+3)  July       12
+4)  Semptember 1
+5)  January    1
+6)  November   10
+7)  May        6
+8)  March      30
+9)  November   22
+10)  October    19
+11)  January    3
+
+Number of days: 11
+
+ Elements December 14  and May 6 removed then December 16 added to the union set.
+
+Elements in the set are: 
+1)  August     25
+2)  July       12
+3)  Semptember 1
+4)  January    1
+5)  November   10
+6)  March      30
+7)  November   22
+8)  October    19
+9)  January    3
+10)  December   16
+
+Number of days: 10
+
+Testin operator overloads
+set1 : 
+Elements in the set are: 
+1)  August     25
+2)  December   14
+3)  July       12
+4)  Semptember 1
+
+Number of days: 4
+
+union set: 
+Elements in the set are: 
+1)  August     25
+2)  July       12
+3)  Semptember 1
+4)  January    1
+5)  November   10
+6)  March      30
+7)  November   22
+8)  October    19
+9)  January    3
+10)  December   16
+
+Number of days: 10
+
+
+Enter to see set1 + union set
+Elements in the set are: 
+1)  August     25
+2)  December   14
+3)  July       12
+4)  Semptember 1
+5)  January    1
+6)  November   10
+7)  March      30
+8)  November   22
+9)  October    19
+10)  January    3
+11)  December   16
+
+Number of days: 11
+
+Enter to see set1 - union set
+Elements in the set are: 
+1)  December   14
+
+Number of days: 1
+
+Enter to see union set - set1
+Elements in the set are: 
+1)  January    1
+2)  November   10
+3)  March      30
+4)  November   22
+5)  October    19
+6)  January    3
+7)  December   16
+
+Number of days: 7
+
+Enter to see union set ^ set1
+Elements in the set are: 
+1)  August     25
+2)  July       12
+3)  Semptember 1
+
+Number of days: 3
+
+Enter to see !union set.
+Elements in the set are: 
+1)  January    2
+2)  January    4
+3)  January    5
+4)  January    6
+5)  January    7
+6)  January    8
+7)  January    9
+8)  January    10
+9)  January    11
+10)  January    12
+11)  January    13
+12)  January    14
+13)  January    15
+14)  January    16
+15)  January    17
+16)  January    18
+17)  January    19
+18)  January    20
+19)  January    21
+20)  January    22
+21)  January    23
+22)  January    24
+23)  January    25
+24)  January    26
+25)  January    27
+26)  January    28
+27)  January    29
+28)  January    30
+29)  January    31
+30)  February   1
+31)  February   2
+32)  February   3
+33)  February   4
+34)  February   5
+35)  February   6
+36)  February   7
+37)  February   8
+38)  February   9
+39)  February   10
+40)  February   11
+41)  February   12
+42)  February   13
+43)  February   14
+44)  February   15
+45)  February   16
+46)  February   17
+47)  February   18
+48)  February   19
+49)  February   20
+50)  February   21
+51)  February   22
+52)  February   23
+53)  February   24
+54)  February   25
+55)  February   26
+56)  February   27
+57)  February   28
+58)  March      1
+59)  March      2
+60)  March      3
+61)  March      4
+62)  March      5
+63)  March      6
+64)  March      7
+65)  March      8
+66)  March      9
+67)  March      10
+68)  March      11
+69)  March      12
+70)  March      13
+71)  March      14
+72)  March      15
+73)  March      16
+74)  March      17
+75)  March      18
+76)  March      19
+77)  March      20
+78)  March      21
+79)  March      22
+80)  March      23
+81)  March      24
+82)  March      25
+83)  March      26
+84)  March      27
+85)  March      28
+86)  March      29
+87)  March      31
+88)  April      1
+89)  April      2
+90)  April      3
+91)  April      4
+92)  April      5
+93)  April      6
+94)  April      7
+95)  April      8
+96)  April      9
+97)  April      10
+98)  April      11
+99)  April      12
+100)  April      13
+101)  April      14
+102)  April      15
+103)  April      16
+104)  April      17
+105)  April      18
+106)  April      19
+107)  April      20
+108)  April      21
+109)  April      22
+110)  April      23
+111)  April      24
+112)  April      25
+113)  April      26
+114)  April      27
+115)  April      28
+116)  April      29
+117)  April      30
+118)  May        1
+119)  May        2
+120)  May        3
+121)  May        4
+122)  May        5
+123)  May        6
+124)  May        7
+125)  May        8
+126)  May        9
+127)  May        10
+128)  May        11
+129)  May        12
+130)  May        13
+131)  May        14
+132)  May        15
+133)  May        16
+134)  May        17
+135)  May        18
+136)  May        19
+137)  May        20
+138)  May        21
+139)  May        22
+140)  May        23
+141)  May        24
+142)  May        25
+143)  May        26
+144)  May        27
+145)  May        28
+146)  May        29
+147)  May        30
+148)  May        31
+149)  Jun        1
+150)  Jun        2
+151)  Jun        3
+152)  Jun        4
+153)  Jun        5
+154)  Jun        6
+155)  Jun        7
+156)  Jun        8
+157)  Jun        9
+158)  Jun        10
+159)  Jun        11
+160)  Jun        12
+161)  Jun        13
+162)  Jun        14
+163)  Jun        15
+164)  Jun        16
+165)  Jun        17
+166)  Jun        18
+167)  Jun        19
+168)  Jun        20
+169)  Jun        21
+170)  Jun        22
+171)  Jun        23
+172)  Jun        24
+173)  Jun        25
+174)  Jun        26
+175)  Jun        27
+176)  Jun        28
+177)  Jun        29
+178)  Jun        30
+179)  July       1
+180)  July       2
+181)  July       3
+182)  July       4
+183)  July       5
+184)  July       6
+185)  July       7
+186)  July       8
+187)  July       9
+188)  July       10
+189)  July       11
+190)  July       13
+191)  July       14
+192)  July       15
+193)  July       16
+194)  July       17
+195)  July       18
+196)  July       19
+197)  July       20
+198)  July       21
+199)  July       22
+200)  July       23
+201)  July       24
+202)  July       25
+203)  July       26
+204)  July       27
+205)  July       28
+206)  July       29
+207)  July       30
+208)  July       31
+209)  August     1
+210)  August     2
+211)  August     3
+212)  August     4
+213)  August     5
+214)  August     6
+215)  August     7
+216)  August     8
+217)  August     9
+218)  August     10
+219)  August     11
+220)  August     12
+221)  August     13
+222)  August     14
+223)  August     15
+224)  August     16
+225)  August     17
+226)  August     18
+227)  August     19
+228)  August     20
+229)  August     21
+230)  August     22
+231)  August     23
+232)  August     24
+233)  August     26
+234)  August     27
+235)  August     28
+236)  August     29
+237)  August     30
+238)  August     31
+239)  Semptember 2
+240)  Semptember 3
+241)  Semptember 4
+242)  Semptember 5
+243)  Semptember 6
+244)  Semptember 7
+245)  Semptember 8
+246)  Semptember 9
+247)  Semptember 10
+248)  Semptember 11
+249)  Semptember 12
+250)  Semptember 13
+251)  Semptember 14
+252)  Semptember 15
+253)  Semptember 16
+254)  Semptember 17
+255)  Semptember 18
+256)  Semptember 19
+257)  Semptember 20
+258)  Semptember 21
+259)  Semptember 22
+260)  Semptember 23
+261)  Semptember 24
+262)  Semptember 25
+263)  Semptember 26
+264)  Semptember 27
+265)  Semptember 28
+266)  Semptember 29
+267)  Semptember 30
+268)  October    1
+269)  October    2
+270)  October    3
+271)  October    4
+272)  October    5
+273)  October    6
+274)  October    7
+275)  October    8
+276)  October    9
+277)  October    10
+278)  October    11
+279)  October    12
+280)  October    13
+281)  October    14
+282)  October    15
+283)  October    16
+284)  October    17
+285)  October    18
+286)  October    20
+287)  October    21
+288)  October    22
+289)  October    23
+290)  October    24
+291)  October    25
+292)  October    26
+293)  October    27
+294)  October    28
+295)  October    29
+296)  October    30
+297)  October    31
+298)  November   1
+299)  November   2
+300)  November   3
+301)  November   4
+302)  November   5
+303)  November   6
+304)  November   7
+305)  November   8
+306)  November   9
+307)  November   11
+308)  November   12
+309)  November   13
+310)  November   14
+311)  November   15
+312)  November   16
+313)  November   17
+314)  November   18
+315)  November   19
+316)  November   20
+317)  November   21
+318)  November   23
+319)  November   24
+320)  November   25
+321)  November   26
+322)  November   27
+323)  November   28
+324)  November   29
+325)  November   30
+326)  December   1
+327)  December   2
+328)  December   3
+329)  December   4
+330)  December   5
+331)  December   6
+332)  December   7
+333)  December   8
+334)  December   9
+335)  December   10
+336)  December   11
+337)  December   12
+338)  December   13
+339)  December   14
+340)  December   15
+341)  December   17
+342)  December   18
+343)  December   19
+344)  December   20
+345)  December   21
+346)  December   22
+347)  December   23
+348)  December   24
+349)  December   25
+350)  December   26
+351)  December   27
+352)  December   28
+353)  December   29
+354)  December   30
+355)  December   31
+
+Number of days: 355
+
+Enter to see implementaion of [] function.
+union set before:
+Elements in the set are: 
+1)  August     25
+2)  July       12
+3)  Semptember 1
+4)  January    1
+5)  November   10
+6)  March      30
+7)  November   22
+8)  October    19
+9)  January    3
+10)  December   16
+
+Number of days: 10
+
+first element is going to change and be setted to my birthday
+
+union set after:
+Elements in the set are: 
+1)  November   19
+2)  July       12
+3)  Semptember 1
+4)  January    1
+5)  November   10
+6)  March      30
+7)  November   22
+8)  October    19
+9)  January    3
+10)  December   16
+
+Number of days: 10
+
